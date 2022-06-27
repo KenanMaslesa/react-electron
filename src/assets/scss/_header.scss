@@ -1,0 +1,46 @@
+.header-wrapper {
+  background-color: $dark;
+  color: $white;
+  padding-left: 20px;
+  border-bottom: 2px solid $red;
+  height: 40px;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  .logo {
+    height: 16px;
+  }
+
+  .btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #201f1f;
+    }
+
+    &__minimize {
+      background-image: url('../img/icon_dante_studio_minimize.png');
+    }
+
+    &__maximize {
+      background-image: url('../img/icon_dante_studio_maximize.png');
+    }
+
+    &__close {
+      background-image: url('../img/icon_dante_studio_close.png');
+
+      &:hover {
+        background-color: $red;
+      }
+    }
+  }
+}

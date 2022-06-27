@@ -1,0 +1,21 @@
+.footer-wrapper {
+  background-color: $main;
+  color: $white;
+  padding: 0 12px;
+  border-top: 2px solid $border-color;
+  height: 32px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .device {
+    &__user {
+      color: $black;
+      font-size: 13px;
+    }
+
+    &__icon {
+      margin-right: 8px;
+    }
+  }
+}

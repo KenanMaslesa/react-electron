@@ -1,0 +1,24 @@
+.sidebar-wrapper {
+  height: 100%;
+  width: 10%;
+  background-color: $white;
+  border-right: 2px solid $border-color;
+}
+
+.sidebar-option-wrapper {
+  margin: 15px 5px 0 5px;
+  padding: 5px;
+
+  &:hover {
+    background-color: $grey;
+    border-radius: 5px;
+  }
+}
+
+.sidebar-option-icon {
+  width: 30px;
+}
+
+.sidebar-option-label {
+  font-size: 12px;
+}
